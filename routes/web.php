@@ -34,6 +34,6 @@ Route::get('/blog', [BlogController::class, 'index'])->name('blog');
 Route::view('contact', 'contact')->name('contact');
 Route::view('about', 'about')->name('about');
 
-Route::view('article', 'article')->name('article');
+Route::view('article', 'article')->name('post.show');
 
 require __DIR__ . '/auth.php';

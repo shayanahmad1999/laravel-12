@@ -1,0 +1,2 @@
+To test how many queries are executed, we can use a package barryvdh/laravel-debugbar.
+composer require barryvdh/laravel-debugbar --dev

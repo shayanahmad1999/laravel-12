@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/welcome', function () {
@@ -20,3 +21,6 @@ Route::view('contact', 'contact')->name('contact');
 Route::view('about', 'about')->name('about');
 
 Route::view('article', 'article')->name('article');
+
+Route::get('posts/{post}', [PostController::class, 'show'])
+    ->name('post.show');

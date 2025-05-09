@@ -12,6 +12,7 @@
         <a href="{{route('home')}}"><h1 class="text-xl font-bold">Brand</h1></a>
         <nav>
             <ul class="flex space-x-6">
+                <li><a href="{{route('blog')}}" class="hover:text-blue-500">My Blog</a></li>
                 <li><a href="{{route('about')}}" class="hover:text-blue-500">About Us</a></li>
                 <li><a href="{{route('contact')}}" class="hover:text-blue-500">Contact</a></li>
             </ul>

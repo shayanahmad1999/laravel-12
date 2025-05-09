@@ -1,0 +1,13 @@
+how to set github token when generated if you have more then one github account sign in
+
+first generated token 
+    -> click on github sitting
+    -> go to developer sitting
+    -> click on personal access token
+    -> then click on Token (classic)
+then generated token and copy the token
+
+then open the prject unhide hidden file and open .git file
+open .config file and past like below in url
+
+url = https://github_username:token@and rest of text

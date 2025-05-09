@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.blog')
  @section('title', 'Contact')
 @section('content')
     <section class="w-3/5 bg-white p-6 shadow-md rounded-lg">

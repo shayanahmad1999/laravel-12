@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.blog')
  @section('title', 'My Blog')
 @section('content')
 <main class="container mx-auto mt-6 flex gap-6">
@@ -24,7 +24,7 @@
     <ul class="space-y-2">
         @foreach($categories as $category)
             <li>
-                <a href="/?category_id={{ $category->id }}"
+                <a href="blog?category_id={{ $category->id }}"
                    class="text-gray-600 hover:text-gray-800">
                     {{ $category->name }}
                 </a>

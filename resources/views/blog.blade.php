@@ -1,5 +1,5 @@
 @extends('layouts.app')
- @section('title', 'MY Blog')
+ @section('title', 'My Blog')
 @section('content')
 <main class="container mx-auto mt-6 flex gap-6">
     <!-- Blog Posts Section -->
